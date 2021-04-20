@@ -10,7 +10,8 @@ Tutorial-2 – JDBC
 Create following table in MYSQL database.
 Employee (E_ID, E_NAME, E_DEPT, E_SAL)Write following programs considering this table
 1. Write a program to read all records from the table and print it on console.
-2. Write a menu based program to perform insert,update and delete operation on table. 3 Write a program to insert record in the         table using Prepared Statement.
+2. Write a menu based program to perform insert,update and delete operation on table.
+3. Write a program to insert record in the         table using Prepared Statement.
 4. Write a program to call a stored procedure “Max_salary()”. 5 Write a program that prints column name and data type of each            column in above table.
 	
 Tutorial-3- Servlet
@@ -20,6 +21,12 @@ Tutorial-3- Servlet
 4. Write a Java Servlet to print all the details of given Employee 
 5. Write a servlet to demonstrate session tracking
 
+Tutorial-4 – JSP & JSTL
+1 Write a JSP page to print a multiplication table of a given number (Use of Scriplet, expression.)
+2 Write a JSP page to call a user defined function (Use of Declaration).
+3 Write a JSP page to authenticate user and display his result.
+4 Write a program to use a classical tag in a java server page.
+5 Write a JSP program using JSTL SQL taglib to display Employee details in tabular formby iterating through the database table 	student
 
 Tutorial-5 Java Server Faces
 1. Write a program for Facelets JSF Tags.
