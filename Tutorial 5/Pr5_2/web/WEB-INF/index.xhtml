@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml"
+	xmlns:h="https://xmlns.jcp.org/jsf/html"
+	xmlns:ui="https://xmlns.jcp.org/jsf/facelets">
+<h:body> 
+<h:form>  
+<h:outputLabel for="username">User Name</h:outputLabel>  
+<h:inputText id="user-id" value="#{user.name}"/><br/>  
+<h:outputLabel for="age">Enter Age</h:outputLabel>  
+<h:inputText id="age-id" value="#{user.age}">  
+<f:converter converterId="javax.faces.Integer" /> 
+</h:inputText><br/>  
+<h:commandButton action="response.xhtml" value="Submit"/>  
+</h:form> 
+</h:body>
+</html>
